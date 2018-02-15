@@ -1,0 +1,6 @@
+c:\users\mdj\documents\visual studio 2013\Projects\TicketFactory\TicketFactory\bin\Debug\TicketFactory.exe.config
+c:\users\mdj\documents\visual studio 2013\Projects\TicketFactory\TicketFactory\obj\Debug\TicketFactory.csprojResolveAssemblyReference.cache
+c:\users\mdj\documents\visual studio 2013\Projects\TicketFactory\TicketFactory\bin\Debug\TicketFactory.exe
+c:\users\mdj\documents\visual studio 2013\Projects\TicketFactory\TicketFactory\bin\Debug\TicketFactory.pdb
+c:\users\mdj\documents\visual studio 2013\Projects\TicketFactory\TicketFactory\obj\Debug\TicketFactory.exe
+c:\users\mdj\documents\visual studio 2013\Projects\TicketFactory\TicketFactory\obj\Debug\TicketFactory.pdb
