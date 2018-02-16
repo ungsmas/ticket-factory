@@ -8,7 +8,7 @@ namespace TicketFactory
 {
     class PeriodTicket : Ticket
     {
-        ITicketDetailsFactory _detailsFactory;
+        readonly ITicketDetailsFactory _detailsFactory;
         public PeriodTicket(ITicketDetailsFactory factory)
         {
             TicketType = "Period Ticket";

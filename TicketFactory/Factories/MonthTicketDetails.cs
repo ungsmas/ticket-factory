@@ -23,7 +23,7 @@ namespace TicketFactory.Factories
 
         public int GetValidTime()
         {
-            return DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month) * 60;
+            return (DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month) - DateTime.Now.Day) * 1440;
         }
 
         public string SetFromStation()

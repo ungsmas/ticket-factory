@@ -16,11 +16,16 @@ namespace TicketFactory
 
         public abstract void CreateTicketDetails();
 
+        private static Guid GenerateTicketGuid()
+        {
+            return Guid.NewGuid();
+        }
+
         public override string ToString()
         {
-           return string.Format("Kategori: {0} - Typ:{1} - Skapad:{2} - Gilltig till:{3} - Pris:{4} ",
+           return string.Format("Kategori: {0} - Typ:{1} - Skapad:{2} - Gilltig till:{3} - Pris:{4} - TicketId:{5} ",
                 TicketDetailInfo.Category, TicketType, CreatedDate, TicketDetailInfo.ValidUntilTime,
-                TicketDetailInfo.Price);
+                TicketDetailInfo.Price, GenerateTicketGuid());
 
         }
     }

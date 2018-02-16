@@ -78,6 +78,7 @@
     <Compile Include="Factories\MonthTicketFactory.cs" />
     <Compile Include="Factories\PeriodTicketDetails.cs" />
     <Compile Include="Factories\SimpleTicketDetails.cs" />
+    <Compile Include="Impl\UnityDependencyResolver.cs" />
     <Compile Include="Interfaces\ITicketDetailsFactory.cs" />
     <Compile Include="Interfaces\ITicketFactory.cs" />
     <Compile Include="Impl\PeriodTicket.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Factories\SimpleTicketFactory.cs" />
     <Compile Include="Impl\TicketCategory.cs" />
     <Compile Include="AbstractClasses\TicketDetails.cs" />
+    <Compile Include="Factories\TicketFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
